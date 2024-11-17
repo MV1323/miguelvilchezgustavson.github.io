@@ -1,136 +1,125 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Miguel Alejandro Vílchez Gustavson</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Página personal de Miguel Alejandro Vílchez Gustavson" name="keywords">
-        <meta content="Sitio web personal de Miguel Alejandro Vílchez Gustavson" name="description">
 
-        <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miguel Alejandro Vílchez Gustavson</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Zilla Slab', serif;
+            background-color: #1a1a1a;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #2c1e3d;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        header nav {
+            margin-top: 20px;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-transform: uppercase;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            color: #f7a400;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2rem;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #27133c;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #f7a400;
+            color: black;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
 
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
+<body>
 
-        <!-- Font Awesome -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <header>
+        <h1>Sobre Miguel</h1>
+        <nav>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#cursos">Cursos</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy estudiante de Ciencia de la Computación en la Universidad Católica San Pablo, actualmente cursando el segundo semestre.
+        </p>
+    </section>
 
-    <body>
-        <div class="wrapper">
-            <div class="sidebar">
-                <div class="sidebar-text d-flex flex-column h-100 justify-content-center text-center">
-                    <!-- Imagen de perfil -->
-                    <img class="mx-auto d-block w-75 bg-primary img-fluid rounded-circle mb-4 p-3" src="img/profile.jpg" alt="Miguel Alejandro Vílchez Gustavson">
-                    
-                    <h1 class="font-weight-bold">Sobre mí:</h1>
-                    <p class="mb-4">
-                        Soy estudiante de Ciencia de la Computación en la Universidad [Nombre de la Universidad], actualmente cursando el segundo semestre.
-                        <br><br>
-                        Cursos que estoy cursando:
-                        <ul>
-                            <li>Ciencia de la Computación I</li>
-                            <li>Matemática II</li>
-                            <li>Estructuras Discretas II</li>
-                            <li>Introducción a la Ciencia de la Computación</li>
-                            <li>Introducción a la Filosofía</li>
-                            <li>Apreciación Musical</li>
-                        </ul>
-                    </p>
+    <section id="cursos">
+        <h2>Cursos que estoy llevando:</h2>
+        <ul style="list-style: none; padding: 0; font-size: 1.2rem;">
+            <li>- Ciencia de la Computación I</li>
+            <li>- Matemática II</li>
+            <li>- Estructuras Discretas II</li>
+            <li>- Introducción a la Ciencia de la Computación</li>
+            <li>- Introducción a la Filosofía</li>
+            <li>- Apreciación Musical</li>
+        </ul>
+    </section>
 
-                    <a href="about.html" class="btn btn-lg btn-block btn-primary mt-auto">Más sobre mí</a>
-                </div>
-                <div class="sidebar-icon d-flex flex-column h-100 justify-content-center text-right">
-                    <i class="fas fa-2x fa-angle-double-right text-primary"></i>
-                </div>
-            </div>
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>
+            Este es un proyecto en el que estoy trabajando en mi curso de Ciencia de la Computación. Consiste en una base de datos para un restaurante que permite mejorar la eficacia de la gerencia.
+        </p>
+        <a href="#" class="btn">Leer más</a>
+    </section>
 
-            <div class="content">
-                <!-- Navbar Start -->
-                <div class="container p-0">
-                    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
-                        <a href="index.html" class="navbar-brand d-block d-lg-none">Miguel Alejandro</a>
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            <div class="navbar-nav m-auto">
-                                <a href="index.html" class="nav-item nav-link active">Inicio</a>
-                                <a href="about.html" class="nav-item nav-link">Sobre mí</a>
-                                <a href="contact.html" class="nav-item nav-link">Contacto</a>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-                <!-- Navbar End -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: miguel.vilchez@ucsp.edu.pe</p>
+    </section>
 
-                <!-- Carousel Start -->
-                <div class="container p-0">
-                    <div id="blog-carousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="w-100" src="img/carousel-1.jpg" alt="Imagen 1">
-                                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                                    <h2 class="mb-3 text-white font-weight-bold">Esto es una prueba aestetik.</h2>
-                                    <div class="d-flex text-white">
-                                        <small class="mr-2"><i class="fa fa-calendar-alt"></i> 01-Ene-2045</small>
-                                        <small class="mr-2"><i class="fa fa-folder"></i> Diseño Web</small>
-                                    </div>
-                                    <a href="" class="btn btn-lg btn-outline-light mt-4">Leer más</a>
-                                </div>
-                            </div>
-                            <!-- Puedes agregar más items aquí, si es necesario -->
-                        </div>
-                    </div>
-                </div>
-                <!-- Carousel End -->
+    <footer>
+        <p>© Miguel Alejandro Vílchez Gustavson. Todos los derechos reservados.</p>
+    </footer>
 
-                <!-- Blog List Start -->
-                <div class="container bg-white pt-5">
-                    <!-- Aquí puedes agregar entradas de blog o información sobre tus proyectos -->
-                    <div class="row blog-item px-3 pb-5">
-                        <div class="col-md-5">
-                            <img class="img-fluid mb-4 mb-md-0" src="img/blog-1.jpg" alt="Proyecto 1">
-                        </div>
-                        <div class="col-md-7">
-                            <h3 class="mt-md-4 px-md-3 mb-2 py-2 bg-white font-weight-bold">Proyecto en Ciencia de la Computación</h3>
-                            <div class="d-flex mb-3">
-                                <small class="mr-2 text-muted"><i class="fa fa-calendar-alt"></i> 01-Ene-2024</small>
-                                <small class="mr-2 text-muted"><i class="fa fa-folder"></i> Ciencia de la Computación</small>
-                            </div>
-                            <p>
-                                Este es un proyecto en el que estoy trabajando en mi curso de Ciencia de la Computación. Consiste en [breve descripción].
-                            </p>
-                            <a class="btn btn-link p-0" href="">Leer más <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Blog List End -->
+</body>
 
-                <!-- Footer Start -->
-                <div class="container py-4 bg-secondary text-center">
-                    <p class="m-0 text-white">
-                        &copy; <a class="text-white font-weight-bold" href="#">Miguel Alejandro Vílchez Gustavson</a>. Todos los derechos reservados.
-                    </p>
-                </div>
-                <!-- Footer End -->
-            </div>
-        </div>
-
-        <!-- Back to Top -->
-        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
-
-        <!-- JavaScript Libraries -->
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
 </html>
