@@ -24,7 +24,7 @@
         header {
             text-align: center;
             padding: 50px;
-            background-color: #2c1e3d;
+            background-color: #4a2949;
         }
         header h1 {
             font-size: 3rem;
@@ -43,7 +43,7 @@
         }
         section h2 {
             font-size: 2.5rem;
-            color: #f7a400;
+            color: #ab0c1c;
             margin-bottom: 20px;
         }
         section p {
@@ -51,7 +51,7 @@
         }
         .btn {
             display: inline-block;
-            background-color: #27133c;
+            background-color: #54060f;
             color: white;
             padding: 10px 20px;
             margin-top: 20px;
@@ -59,8 +59,46 @@
             transition: background-color 0.3s ease;
         }
         .btn:hover {
-            background-color: #f7a400;
-            color: black;
+            background-color: #b50b1e;
+            color: white;
+        }
+         #cursos 
+        {
+
+            background-color: #3b130e;
+        }
+        
+        #sobre-mi 
+        {
+
+            background-color: #230d07;
+        }
+         #proyectos 
+        {
+
+            background-color: #230d07;
+        }
+        
+        #contacto 
+        {
+
+            background-color: #3b130e;
+        }
+        
+        #compañeros 
+        {
+
+            background-color: black;
+        }
+        
+        #referencias {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        background-color: #36353b;
+        text-transform: uppercase;
         }
         footer {
             background-color: #333;
@@ -75,14 +113,19 @@
 <body>
 
     <header>
-        <h1>Sobre Miguel</h1>
-        <nav>
-            <a href="#sobre-mi">Sobre mí</a>
-            <a href="#cursos">Cursos</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
+        <h1>Miguel Alejandro Vílchez Gustavson</h1>
+
     </header>
+    
+    <section id="referencias">
+            <nav>
+            <a href="#sobre-mi">||  Sobre mí</a>
+            <a href="#cursos">||  Cursos</a>
+            <a href="#proyectos">||  Proyectos</a>
+            <a href="#contacto">||  Contacto</a>
+            <a href="#compañeros">||  Compañeros  ||</a>
+        </nav>
+     </section>
 
     <section id="sobre-mi">
         <h2>Sobre mí</h2>
@@ -106,9 +149,11 @@
     <section id="proyectos">
         <h2>Proyectos</h2>
         <p>
-            Este es un proyecto en el que estoy trabajando en mi curso de Ciencia de la Computación. Consiste en una base de datos para un restaurante que permite mejorar la eficacia de la gerencia.
+            Este es un proyecto en el que estoy trabajando en mi curso de Introducción a la Ciencia de la Computación. Consiste en una página web que cuente con mi información personal.
+            <ul style="list-style: none; padding: 0; font-size: 1.2rem;">
+           <li> Puedes hallar el código en:
         </p>
-        <a href="#" class="btn">Leer más</a>
+        <a href="https://github.com/MV1323" target="_blank" class="btn">Mi github </a>
     </section>
 
     <section id="contacto">
@@ -116,8 +161,15 @@
         <p>Email: miguel.vilchez@ucsp.edu.pe</p>
     </section>
 
+    <section id="compañeros">
+    <h2>Puedes hallar los links de algunos compañeros aquí:</h2>
+    <a href="https://alice-gabriela-sucasaca-i.github.io/" target="_blank" class="btn">Alice Sucasaca </a>
+    <a href="https://jose-alejandro-sabino-romero-salas.github.io//" target="_blank" class="btn">José Romero </a>
+        
+    </section>
+
     <footer>
-        <p>© Miguel Alejandro Vílchez Gustavson. Todos los derechos reservados.</p>
+        <p>© Miguel Alejandro Vílchez Gustavson.</p>
     </footer>
 
 </body>
